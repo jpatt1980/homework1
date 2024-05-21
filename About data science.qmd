@@ -3,7 +3,11 @@ title: "Data Science"
 format: html
 editor: visual
 ---
+<<<<<<< HEAD
 # Questions and Answers
+=======
+# Questions and answers
+>>>>>>> fc3fd2c62bce02c2237715684a5e050030607623
 ## What do you think being a data scientist is about?
 
 Data scientists structure data for use in analysis to provide a client information required to solve a problem, like improving process or cost effectiveness or improving sales. 
