@@ -3,14 +3,11 @@ title: "Data Science"
 format: html
 editor: visual
 ---
-<<<<<<< HEAD
+
 # Questions and Answers
-=======
-# Questions and answers
->>>>>>> fc3fd2c62bce02c2237715684a5e050030607623
 ## What do you think being a data scientist is about?
 
-Data scientists structure data for use in analysis to provide a client information required to solve a problem, like improving process or cost effectiveness or improving sales. 
+Data scientists structure data for use in analysis, then conduct the data analysis and provide a client with information required to solve a problem, like improving process or cost effectiveness or improving sales. 
    
 
 ## What differences/similarities do you see between data scientists and statisticians?
@@ -22,6 +19,7 @@ Both disciplines require a background in statistics, computer science, and analy
 I would consider myself a rather novice data scientist more than I would say I'm a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency.
 
 # Iris Data
+
 
 ## Create an R code chunk to determine the class, type, and structure of the object y
 
