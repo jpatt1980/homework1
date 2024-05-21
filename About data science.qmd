@@ -16,15 +16,24 @@ Both disciplines require a background in statistics, computer science, and analy
 
 I view myself as a rather novice data scientist more than I would consider myself a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency. 
 
+# Iris 
 
-# y <- density(iris$Sepal.Length)
 ## Create an R code chunk to determine the class, type, and structure of the object y
 ```{r}
 y <- density(iris$Sepal.Length)
 ```
 
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+
 ## Create an R code chunk that uses the plot funciton on y.
 ```{r}
 #| echo: false
+plot(y)
 ```
+
 

@@ -108,16 +108,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>How do you view yourself in relation to these two areas?</h1>
 <p>I view myself as a rather novice data scientist more than I would consider myself a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency.</p>
 </section>
-<section id="y---densityirissepal.length" class="level1">
-<h1>y &lt;- density(iris$Sepal.Length)</h1>
+<section id="iris" class="level1">
+<h1>Iris</h1>
 <section id="create-an-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y" class="level2">
 <h2 class="anchored" data-anchor-id="create-an-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y">Create an R code chunk to determine the class, type, and structure of the object y</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">density</span>(iris<span class="sc">$</span>Sepal.Length)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "density"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">typeof</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] "list"</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">str</span>(y)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>List of 8
+ $ x         : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...
+ $ y         : num [1:512] 0.00023 0.000259 0.000293 0.000329 0.00037 ...
+ $ bw        : num 0.274
+ $ n         : int 150
+ $ old.coords: logi FALSE
+ $ call      : language density.default(x = iris$Sepal.Length)
+ $ data.name : chr "iris$Sepal.Length"
+ $ has.na    : logi FALSE
+ - attr(*, "class")= chr "density"</code></pre>
+</div>
+</div>
 </section>
 <section id="create-an-r-code-chunk-that-uses-the-plot-funciton-on-y." class="level2">
 <h2 class="anchored" data-anchor-id="create-an-r-code-chunk-that-uses-the-plot-funciton-on-y.">Create an R code chunk that uses the plot funciton on y.</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="About-data-science_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
 </section>
 
