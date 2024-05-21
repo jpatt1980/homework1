@@ -2,6 +2,8 @@
 title: "Data Science"
 format: html
 editor: visual
+editor_options: 
+  chunk_output_type: console
 ---
 
 # Questions and Answers
@@ -24,10 +26,12 @@ I would consider myself a rather novice data scientist more than I would say I'm
 ## Create an R code chunk to determine the class, type, and structure of the object y
 
 ```{r}
+#| echo: false
 y <- density(iris$Sepal.Length)
 ```
 
 ```{r}
+#| echo: false
 class(y)
 typeof(y)
 str(y)
