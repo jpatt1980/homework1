@@ -3,20 +3,21 @@ title: "Data Science"
 format: html
 editor: visual
 ---
+# Questions and Answers
+## What do you think being a data scientist is about?
 
-# What do you think being a data scientist is about?
+Data scientists structure data for use in analysis to provide a client information required to solve a problem, like improving process or cost effectiveness or improving sales. 
+   
 
-A data scientist's goal is to determine the narrative of a data set and using that information in creating ways to meet the needs of a client.
+## What differences/similarities do you see between data scientists and statisticians?
 
-# What differences/similarities do you see between data scientists and statisticians?
+Both disciplines require a background in statistics, computer science, and analytical thinking. What each discipline does with this background is where they differ. In a way, the statistician stops at the modeling and analysis of a data set while the data scientist uses the information gained from an analysis and applies it to determining a solution to a problem.
 
-Both disciplines require a background in statistics, computer science, and analytical thinking. What they do with this background is where they differ. In a way, the statistician stops at the modeling and analysis of a data set. The data scientist takes the information gained from the analysis and applies it to determine a solution that meets the needs of their client.
+## How do you view yourself in relation to these two areas?
 
-# How do you view yourself in relation to these two areas?
+I would consider myself a rather novice data scientist more than I would say I'm a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency.
 
-I view myself as a rather novice data scientist more than I would consider myself a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency.
-
-# Iris
+# Iris Data
 
 ## Create an R code chunk to determine the class, type, and structure of the object y
 

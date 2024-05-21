@@ -4,7 +4,28 @@
     "href": "About data science.html",
     "title": "Data Science",
     "section": "",
-    "text": "A data scientist’s goal is to determine the narrative of a data set and using that information in creating ways to meet the needs of a client."
+    "text": "Data scientists structure data for use in analysis to provide a client information required to solve a problem, like improving process or cost effectiveness or improving sales.\n\n\n\nBoth disciplines require a background in statistics, computer science, and analytical thinking. What each discipline does with this background is where they differ. In a way, the statistician stops at the modeling and analysis of a data set while the data scientist uses the information gained from an analysis and applies it to determining a solution to a problem.\n\n\n\nI would consider myself a rather novice data scientist more than I would say I’m a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency."
+  },
+  {
+    "objectID": "About data science.html#what-do-you-think-being-a-data-scientist-is-about",
+    "href": "About data science.html#what-do-you-think-being-a-data-scientist-is-about",
+    "title": "Data Science",
+    "section": "",
+    "text": "Data scientists structure data for use in analysis to provide a client information required to solve a problem, like improving process or cost effectiveness or improving sales."
+  },
+  {
+    "objectID": "About data science.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "href": "About data science.html#what-differencessimilarities-do-you-see-between-data-scientists-and-statisticians",
+    "title": "Data Science",
+    "section": "",
+    "text": "Both disciplines require a background in statistics, computer science, and analytical thinking. What each discipline does with this background is where they differ. In a way, the statistician stops at the modeling and analysis of a data set while the data scientist uses the information gained from an analysis and applies it to determining a solution to a problem."
+  },
+  {
+    "objectID": "About data science.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "href": "About data science.html#how-do-you-view-yourself-in-relation-to-these-two-areas",
+    "title": "Data Science",
+    "section": "",
+    "text": "I would consider myself a rather novice data scientist more than I would say I’m a statistician. I enjoy determining the story a set of data is telling, but I want to apply that information to create solutions to problems, such as workplace process efficiency."
   },
   {
     "objectID": "About data science.html#create-an-r-code-chunk-to-determine-the-class-type-and-structure-of-the-object-y",
